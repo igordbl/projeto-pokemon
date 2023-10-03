@@ -41,7 +41,7 @@ function requestPokemonDetail(number) {
         <li class="pokemonOpen ${pokemonDetail.type}">
         <button class="closeButton" onclick="closeModal()" ontouch="closeModal()">✘</button>
             <span class="nameOpen">${pokemonDetail.name}</span> 
-            <div id="divCloseButton">
+            <div id="modalPokemonNumber">
                 <span>#${pokemonDetail.number}</span>                
             </div>
 

@@ -8,8 +8,13 @@ body {
     background-color: #f6f8fc;
 }
 
+.titleLogo {
+    width: 170px;
+}
+
 .types {
     color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .content {
